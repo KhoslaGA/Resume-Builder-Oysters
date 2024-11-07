@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Change to ES6 for modern JavaScript features
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext", // Use esnext for modules
+    "moduleResolution": "node", // Use node module resolution
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve", // Use the react-jsx option for JSX parsing
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
