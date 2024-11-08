@@ -17,16 +17,14 @@ import { readPdf } from "../lib/parse-resume-from-pdf/read-pdf";
 const RESUME_EXAMPLES = [
   {
     fileUrl: "resume-example/public-resume.pdf",
-    description: <span className="font-bold">Took from public sources</span>,
+    description: <span>Took from public sources</span>,
   },
   {
     fileUrl: "resume-example/inhouse-resume.pdf",
     description: (
-      <span className="font-bold">
+      <span>
         Created with Inhouse Resume Builder -{" "}
-        <Link href="/resume-builder" className="text-[#3B82F6]">
-          Build Resume now
-        </Link>
+        <Link href="/resume-builder">Link</Link>
       </span>
     ),
   },

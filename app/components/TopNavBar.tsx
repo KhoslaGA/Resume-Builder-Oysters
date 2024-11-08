@@ -29,7 +29,7 @@ export const TopNavBar = () => {
               priority
             />
             <h1 className="text-xl whitespace-nowrap font-bold text-primary">
-              Oyester Resume builder
+              Oyster Resume Builder & Parser
             </h1>
           </div>
         </Link>

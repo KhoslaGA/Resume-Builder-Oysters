@@ -1,10 +1,10 @@
-import { GeneralSetting } from "@/lib/redux/settingsSlice";
+import { GeneralSetting } from "@/app/lib/redux/settingsSlice";
 import {
   FONT_FAMILY_TO_DISPLAY_NAME,
   FONT_FAMILY_TO_STANDARD_SIZE_IN_PT,
   getAllFontFamiliesToLoad,
 } from "../../fonts/constants";
-import { PX_PER_PT } from "@/lib/constants";
+import { PX_PER_PT } from "@/app/lib/constants";
 import dynamic from "next/dynamic";
 
 const SelectionComponent = ({

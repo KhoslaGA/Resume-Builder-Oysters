@@ -1,4 +1,4 @@
-import { ResumeEducation, ResumeWorkExperience } from "@/lib/redux/types";
+import { ResumeEducation, ResumeWorkExperience } from "@/app/lib/redux/types";
 import { ResumePDFBulletList, ResumePDFSection, ResumePDFText } from "./common";
 import { View } from "@react-pdf/renderer";
 import { spacing, styles } from "./styles";

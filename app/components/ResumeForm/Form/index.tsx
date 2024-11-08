@@ -1,4 +1,4 @@
-import { useAppDispatch, useAppSelector } from "@/lib/redux/hooks";
+import { useAppDispatch, useAppSelector } from "@/app/lib/redux/hooks";
 import {
   ShowForm,
   changeFormHeading,
@@ -8,7 +8,7 @@ import {
   selectIsFirstForm,
   selectIsLastForm,
   selectShowByForm,
-} from "@/lib/redux/settingsSlice";
+} from "@/app/lib/redux/settingsSlice";
 import {
   AcademicCapIcon,
   BuildingOfficeIcon,
@@ -22,7 +22,7 @@ import {
   addSectionInForm,
   deleteSectionInFormByIdx,
   moveSectionInForm,
-} from "@/lib/redux/resumeSlice";
+} from "@/app/lib/redux/resumeSlice";
 import { PlusSmallIcon } from "@heroicons/react/24/outline";
 
 const FORM_TO_ICON: { [section in ShowForm]: typeof BuildingOfficeIcon } = {

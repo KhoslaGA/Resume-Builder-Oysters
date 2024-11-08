@@ -1,9 +1,9 @@
-import { DEFAULT_FONT_COLOR, Settings } from "@/lib/redux/settingsSlice";
-import { Resume } from "@/lib/redux/types";
+import { DEFAULT_FONT_COLOR, Settings } from "@/app/lib/redux/settingsSlice";
+import { Resume } from "@/app/lib/redux/types";
 import { Document, Page, View } from "@react-pdf/renderer";
 import { styles, spacing } from "./styles";
 import { ResumePDFProfile } from "./ResumePDFProfile";
-import { ShowForm } from "@/lib/redux/settingsSlice";
+import { ShowForm } from "@/app/lib/redux/settingsSlice";
 import { ResumePDFWorkExperience } from "./ResumePDFWorkExperience";
 import { ResumePDFEducation } from "./ResumePDFEducation";
 import { ResumePDFProject } from "./ResumePDFProject";

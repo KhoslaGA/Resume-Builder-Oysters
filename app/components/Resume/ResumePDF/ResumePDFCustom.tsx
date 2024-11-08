@@ -2,7 +2,7 @@ import {
   ResumeCustom,
   ResumeSkills,
   ResumeWorkExperience,
-} from "@/lib/redux/types";
+} from "@/app/lib/redux/types";
 import {
   ResumeFeaturedSkill,
   ResumePDFBulletList,

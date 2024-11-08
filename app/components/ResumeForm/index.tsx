@@ -1,12 +1,12 @@
-import { cx } from "@/lib/cx";
+import { cx } from "@/app/lib/cx";
 import {
   useAppSelector,
   useSaveStateToLocalStorageOnChange,
   useSetInitialStore,
-} from "@/lib/redux/hooks";
+} from "@/app/lib/redux/hooks";
 import { useState } from "react";
 import { ProfileForm } from "./ProfileForm";
-import { ShowForm, selectFormsOrder } from "@/lib/redux/settingsSlice";
+import { ShowForm, selectFormsOrder } from "@/app/lib/redux/settingsSlice";
 import { WorkExperiencesForm } from "./WorkExperiencesForm";
 import { EducationsForm } from "./EducationsForm";
 import { ProjectsForm } from "./ProjectsForm";
