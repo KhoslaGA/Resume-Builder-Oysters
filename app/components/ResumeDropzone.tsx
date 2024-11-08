@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { cx } from "../lib/cx";
 import Image from "next/image";
-import addPdfSrc from "@/public/assets/add-pdf.svg";
+
 import { LockClosedIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import { parseResumeFromPdf } from "../lib/parse-resume-from-pdf";
 import { deepClone } from "../lib/parse-resume-from-pdf/deep-clone";
@@ -17,6 +17,8 @@ const defaultFileState = {
   size: 0,
   fileUrl: "",
 };
+
+const addPdfSrc = "/assets/add-pdf.svg";
 
 const ResumeDropzone = ({
   onFileUrlChange,

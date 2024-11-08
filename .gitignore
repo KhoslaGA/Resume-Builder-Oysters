@@ -1,0 +1,30 @@
+# Next.js specific ignores
+.next/
+coverage/
+# Build output
+/dist/
+/build/
+# Node.js ignores
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# OS-specific ignores
+.DS_Store
+Thumbs.db
+# Editor-specific ignores
+.vscode/
+.idea/
+# Other ignores
+*.env
+*.env.*
+*.tmp
+*.log
+*.git
+
+
+# Allow specific files to be committed
+!.gitignore
+!next.config.js
+!package.json
+!yarn.lock

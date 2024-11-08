@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "next/core-web-vitals", // Next.js recommended configuration
+    "eslint:recommended", // ESLint's basic recommended rules
+    "plugin:react/recommended" // React-specific linting rules
+  ],
+  "plugins": [
+    "react", // React plugin
+    "next" // Next.js plugin
+  ],
+  "env": {
+    "browser": true, // Enable browser globals like `window`, `document`
+    "node": true // Enable Node.js globals like `require`, `module`
+  },
+  "rules": {
+    // Add custom rules here if needed
+    "react/react-in-jsx-scope": "off" // Disables the rule requiring React import in JSX files for React 17+
+  }
+}

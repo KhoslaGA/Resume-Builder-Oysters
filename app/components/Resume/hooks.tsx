@@ -1,4 +1,4 @@
-import { A4_HEIGHT_PX, LETTER_HEIGHT_PX } from "@/app/lib/constants";
+import { A4_HEIGHT_PX, LETTER_HEIGHT_PX } from "@/lib/constants";
 import { useEffect, useState } from "react";
 
 export const getPxPerRem = () => {

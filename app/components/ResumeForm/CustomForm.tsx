@@ -1,15 +1,15 @@
-import { useAppDispatch, useAppSelector } from "@/app/lib/redux/hooks";
+import { useAppDispatch, useAppSelector } from "@/lib/redux/hooks";
 import {
   changeCustom,
   changeSkills,
   selectCustom,
   selectSkills,
-} from "@/app/lib/redux/resumeSlice";
+} from "@/lib/redux/resumeSlice";
 import {
   changeShowBulletPoints,
   selectShowBulletPoints,
   selectThemeColor,
-} from "@/app/lib/redux/settingsSlice";
+} from "@/lib/redux/settingsSlice";
 import { Form } from "./Form";
 import { BulletListTextArea, InputGroupWrapper } from "./Form/InputGroup";
 import { BulletListIconButton } from "./Form/IconButton";

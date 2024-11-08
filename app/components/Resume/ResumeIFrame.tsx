@@ -5,7 +5,8 @@ import {
   LETTER_HEIGHT_PX,
   LETTER_WIDTH_PT,
   LETTER_WIDTH_PX,
-} from "@/app/lib/constants";
+} from "@/lib/constants";
+
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
 import Frame from "react-frame-component";
